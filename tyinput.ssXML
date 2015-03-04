@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Input Library</Name>
+  <Header>namespace tycho
+{
+namespace input
+{
+
+    $(ClassDef)
+
+} // end namespace
+} // end namespace</Header>
+  <Source>namespace tycho
+{
+namespace input
+{
+
+    //--------------------------------------------------------------------
+
+
+
+    //--------------------------------------------------------------------
+
+
+} // end namespace
+} // end namespace</Source>
+  <SrcDir>./</SrcDir>
+  <IncDir>./</IncDir>
+  <HdrIncludes>#include "input/input_abi.h"
+#include "input/forward_decls.h"
+</HdrIncludes>
+  <SrcIncludes />
+  <ABI>TYCHO_INPUT_ABI</ABI>
+</ProjectSettings>
